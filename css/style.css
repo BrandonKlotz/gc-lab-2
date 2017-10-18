@@ -124,8 +124,8 @@ body {
       flex-direction: column;
     }
     .flex-container, .flex-menu-item, .flex-menu-logo, .flex-container {
-      width: 90%;
-      text-align: center;
+      /*width: 100%;*/
+      /*text-align: center;*/
       /*flex-direction: column;
       justify-content: center;*/
       padding: .5em;
@@ -149,7 +149,7 @@ body {
 
     div.flex-menu-item.btn {
       margin-top: .5em;
-      width: 350px;
+      width: 100%;
     }
 
     .btn {
@@ -171,4 +171,11 @@ body {
     .flex-item-logo{
       padding-left: 1em;
     }*/
+}
+
+@media only screen and (max-width: 768px) {
+    img {
+      height: 300px;
+      width: 300px;
+    }
 }
